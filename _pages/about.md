@@ -7,7 +7,4 @@ image: assets/images/screenshot.jpg
 imageshadow: true
 ---
 
- 
-
-<a target="_blank" href="https://bootstrapstarter.com/bootstrap-templates/jekyll-theme-memoirs/" class="btn btn-dark"> Get Memoirs for Jekyll &rarr;</a>
 
