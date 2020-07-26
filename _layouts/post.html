@@ -1,6 +1,6 @@
 ---
 layout: default
-disqus: false
+<!--disqus: false-->
 archive: false
 post_class: post-template
 ---
@@ -13,14 +13,10 @@ post_class: post-template
     {% if page.author %}
     <div class="d-flex align-items-center mt-4">
         <div>
-            {% if author.avatar %}
             <img class="author-thumb" src="{{site.baseurl}}/{{ author.avatar }}" alt="{{ author.display_name }}">
-            {% else %}
-            <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
-            {% endif %}
         </div>            
         <div>
-        Written by <a target="_blank" class="text-dark" href="{{ author.web }}">{{ author.display_name }}</a> on 
+        Written by <a target="_blank" class="text-dark" href="{{ author.web }}">Willen Duan</a> on 
         <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time></span>           
         {% if page.last_modified_at %}
         (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
@@ -62,7 +58,7 @@ post_class: post-template
 
 <!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first: 
 https://search.google.com/structured-data/testing-tool/u/0/
-================================================== -->
+================================================== 
 {% if page.rating %}
     <script type="application/ld+json">
     {
@@ -84,4 +80,4 @@ https://search.google.com/structured-data/testing-tool/u/0/
     }
     }
     </script>
-{% endif %}
+{% endif %}-->

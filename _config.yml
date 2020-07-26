@@ -6,7 +6,7 @@ logo: 'assets/images/logo.jpg'
 favicon: 'assets/images/logo.jpg'
 baseurl:
 google_analytics: 'UA-xxxxxxxx-1'
-disqus: 'demowebsite'
+#disqus: 'demowebsite'
 mailchimp-list: 'https://willendzw.github.io/'
 include: ["_pages"]
 permalink: /:title/
@@ -51,6 +51,7 @@ kramdown:
       disable : true
 
 
+#page
 
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
 adsense: "disabled"
