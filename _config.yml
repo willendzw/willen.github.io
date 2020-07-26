@@ -7,7 +7,7 @@ favicon: 'assets/images/logo.jpg'
 baseurl:
 google_analytics: 'UA-xxxxxxxx-1'
 disqus: 'demowebsite'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+mailchimp-list: 'https://willendzw.github.io/'
 include: ["_pages"]
 permalink: /:title/
 email: willendzw@163.com
@@ -17,7 +17,7 @@ authors:
   willen:
     name: willen
     display_name: willen
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    gravatar: FFFFFFFFFFFFFFFFFFF
     email: willendzw@163.com
     web: https://willendzw.github.io
     description: "不积跬步，无以至千里；不积小流，无以成江海。"
