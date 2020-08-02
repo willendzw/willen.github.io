@@ -2,7 +2,7 @@
 layout: post
 title:  "语音识别的知识图谱"
 author: Willen
-categories: [ 语音识别 ]
+categories: [ 语音 ]
 tags: [ 语音识别 ]
 image: assets/images/KaldiTextAndLogoSmall.png
 comments: false
